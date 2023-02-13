@@ -1,0 +1,43 @@
+body{
+    background-color: ;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: #ff1a0d;
+}
+#encabezado{
+    border: solid 20px #ff1a0d;
+}
+#ribbon{
+    width: 100px;
+    position: absolute;
+    left: 20px;
+    top:28px;
+}
+#titulo{
+    position: relative;
+    top: 60px;
+    left: 100px;
+    font-size: 25px;
+}
+#madreInmigrante{
+    width: 550px;
+    position: relative;
+    top: 4px;
+    left: 730px;
+}
+section{
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 2%;
+}
+nav{
+    border: solid 2px;
+}
+.lista{
+    display: inline;
+}
+th,td{
+    border: solid 2px;
+}
