@@ -1,43 +1,103 @@
-body{
+body {
     background-color: ;
 }
-h1{
+#flechaarriba{
+    width: 17px;
+}
+h1 {
     font-family: 'Times New Roman', Times, serif;
     color: #ff1a0d;
 }
-#encabezado{
+
+#encabezado {
     border: solid 20px #ff1a0d;
+    margin-bottom: 10px;
 }
-#ribbon{
+
+#ribbon {
     width: 100px;
     position: absolute;
     left: 20px;
-    top:28px;
+    top: 28px;
 }
-#titulo{
+
+#titulo {
     position: relative;
     top: 60px;
     left: 100px;
     font-size: 25px;
 }
-#madreInmigrante{
+
+#madreInmigrante {
     width: 550px;
     position: relative;
     top: 4px;
     left: 730px;
 }
-section{
-    background-color: white;
-    margin-left: 20px;
-    margin-right: 20px;
+
+section {
     padding: 2%;
 }
-nav{
-    border: solid 2px;
+
+nav {
+    background-color: #ff1a0d;
+    padding: 20px;
 }
-.lista{
+
+.lista {
     display: inline;
 }
-th,td{
+
+th,
+td {
     border: solid 2px;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: fit-content;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: white;
+}
+
+.dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
+}
+
+#parrafo1{
+    border: solid 20px #ff1a0d;
+}
+button{
+    margin-right: 50px;
+}
+a{
+    text-decoration: none;
+}
+p{
+    text-align: justify;
+}
+ul{
+   list-style-type: none; 
+}
+li{
+    display: inline-block;
 }
