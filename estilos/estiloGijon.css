@@ -1,34 +1,35 @@
-body {
-    background-color: ;
-}
-#flechaarriba{
-    width: 17px;
-}
-h1 {
-    font-family: 'Times New Roman', Times, serif;
-    color: #ff1a0d;
+body{
+    background-color: #ff1a0d;
 }
 
 #encabezado {
-    border: solid 20px #ff1a0d;
-    margin-bottom: 10px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
 }
-
+nav{
+    background-color: white;
+    padding: 2%;
+    margin-left: 10px;
+    width: 300px;
+}
+#menu{
+    display: flex;
+    margin-right: 10px ;
+}
+#olas{
+    background-image: url(imagenes/agua.jpg);
+    width: 100%;
+}
 #ribbon {
     width: 100px;
     position: absolute;
-    left: 20px;
-    top: 28px;
+    left: 15px;
+    top: 20px;
 }
 
-#titulo {
-    position: relative;
-    top: 60px;
-    left: 100px;
-    font-size: 25px;
-}
-
-#madreInmigrante {
+#vector {
     width: 550px;
     position: relative;
     top: 4px;
@@ -36,68 +37,11 @@ h1 {
 }
 
 section {
+    margin-left: 10px;
+    margin-right: 10px;
     padding: 2%;
-}
-
-nav {
-    background-color: #ff1a0d;
-    padding: 20px;
-}
-
-.lista {
-    display: inline;
-}
-
-th,
-td {
-    border: solid 2px;
-}
-
-.dropdown {
-    display: inline-block;
-    position: relative;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    width: fit-content;
-    overflow: auto;
-    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
     background-color: white;
 }
-
-.dropdown-content a {
-    display: block;
-    color: #000000;
-    padding: 5px;
-    text-decoration: none;
-}
-
-.dropdown-content a:hover {
-    color: #FFFFFF;
-    background-color: #00A4BD;
-}
-
-#parrafo1{
-    border: solid 20px #ff1a0d;
-}
-button{
-    margin-right: 50px;
-}
-a{
-    text-decoration: none;
-}
-p{
-    text-align: justify;
-}
-ul{
-   list-style-type: none; 
-}
-li{
-    display: inline-block;
+#flechaarriba{
+    width: 17px;
 }
