@@ -14,13 +14,31 @@ nav{
     margin-left: 10px;
     width: 300px;
 }
+#indice{
+    list-style-type: none;
+    font-size: 25px;
+    padding: 10px;
+}
+.indice,a{
+    text-decoration: none;
+    color: black;
+}
+.indice2{
+    list-style-type: none;
+    font-size: 20px;
+}
 #menu{
     display: flex;
     margin-right: 10px ;
+    margin-bottom: 30px;
 }
-#olas{
-    background-image: url(imagenes/agua.jpg);
+#bandera1{
+    background-color: white;
     width: 100%;
+}
+#bandera2{
+    position: relative;
+    left: 300px;
 }
 #ribbon {
     width: 100px;
@@ -35,13 +53,34 @@ nav{
     top: 4px;
     left: 730px;
 }
+.tituloSeccion li{
+    list-style-type: none;
+    display: inline-block;
 
+}
 section {
     margin-left: 10px;
     margin-right: 10px;
-    padding: 2%;
+    margin-bottom: 30px;
+    padding: 6%;
     background-color: white;
 }
-#flechaarriba{
+article{
+    margin-bottom: 50px;
+}
+h3{
+    text-align: center;
+}
+.flechaarriba{
     width: 17px;
 }
+p{
+    text-align: justify;
+    font-size: larger;
+}
+#escudoGijon{
+    width: 200px;
+    position: relative;
+    left: 700px;
+}
+
