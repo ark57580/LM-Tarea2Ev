@@ -14,39 +14,40 @@
     <header id="encabezado">
         <img id="ribbon" src="imagenes/ribbon.png" alt="Logo gijon">
         <img id="vector" src="imagenes/vector.jpg" alt="">
-    </header>
-    <div id="menu">
-        <nav>
-            <div>
-                <ul id="indice">
-                    <li><a href="#topo">Toponomia</a></li>
-                    <ul class="indice2">
-                        <li><a href="">Oficialidad</a></li>
+
+        <div id="menu">
+            <nav>
+                <div>
+                    <ul id="indice">
+                        <li><a href="#topo">Toponomia</a></li>
+                        <ul class="indice2">
+                            <li><a href="#ofi">Oficialidad</a></li>
+                        </ul>
+                        <li><a href="#simb">Simbolos</a></li>
+                        <li><a href="#geo">Geografia</a></li>
+                        <ul class="indice2">
+                            <li><a href="#hidro">Hidrografía</a></li>
+                            <li><a href="#clim">Clima</a></li>
+                        </ul>
+                        <li><a href="">Historia</a></li>
+                        <ul class="indice2">
+                            <li><a href="">Prehistoria</a></li>
+                            <li><a href="">Edad antigua</a></li>
+                            <li><a href="">Edad media y moderna</a></li>
+                            <li><a href="">Edad contemporanea</a></li>
+                        </ul>
                     </ul>
-                    <li><a href="">Simbolos</a></li>
-                    <li><a href="">Geografia</a></li>
-                    <ul class="indice2">
-                        <li><a href="">Hidrografía</a></li>
-                        <li><a href="">Clima</a></li>
-                    </ul>
-                    <li><a href="">Historia</a></li>
-                    <ul class="indice2">
-                        <li><a href="">Prehistoria</a></li>
-                        <li><a href="">Edad antigua</a></li>
-                        <li><a href="">Edad media y moderna</a></li>
-                        <li><a href="">Edad contemporanea</a></li>
-                    </ul>
-                </ul>
+                </div>
+            </nav>
+            <div id="bandera1">
+                <img id="bandera2" src="imagenes/bandera.svg" alt="">
             </div>
-        </nav>
-        <div id="bandera1">
-            <img id="bandera2" src="imagenes/bandera.svg" alt="">
         </div>
-    </div>
+    </header>
 
 
-    <section>
-        <article>
+    <section style="display: flex;">
+        <article style="margin-right: 20px;">
             <p>Gijón <i>(en asturiano Xixón)</i> es una ciudad española con la categoría histórica de villa. Es el único
                 núcleo de población de la parroquia del mismo nombre. Su concejo —denominación que reciben los
                 municipios en
@@ -84,6 +85,9 @@
                 Centro
                 de Seguridad Marítima Integral de Salvamento Marítimo.</p>
         </article>
+        <aside>
+            <img style="width: 600px;" src="imagenes/mapa.JPG" alt="">
+        </aside>
     </section>
     <section>
         <article>
@@ -115,32 +119,51 @@
                 <li>egi+gon: sitio estrecho y recogido, alto y bueno</li>
             </ul>
             <p>
-                Basándose en el primitivo carácter de Gijón como asentamiento militar, Sánchez propone la palabra sessio, que
-                aparece en expresiones como sessio legionis o in sessione legionum, teoría que reforzaría la presencia de unas
-                «aras sestianas» o «aras sessianas» que algunos autores sitúan en la Campa Torres y Sánchez interpreta como
-                «aras de la sessio» o «aras sessianas», es decir, «aras gijonesas». Otras explicaciones han buscado el origen
-                del término en antropónimos como gegionus, gegion, segius (según Manzanares); sassonius (según Schulze) o
-                hipotéticos *iaionus, *ieionus (según García Arias). Por otra parte, según sostiene el filólogo Xosé Lluis
-                García Arias, la enormemente popular identificación de Gijón con la Gigia, citada por Ptolomeo, en realidad no
-                tendría nada que ver con la urbe asturiana sino que correspondería a una población situada en lo que hoy es
-                territorio leonés, quizá próxima al río Cea. También cabe suponer que puesto que la ciudad fue fundada por la
+                Basándose en el primitivo carácter de Gijón como asentamiento militar, Sánchez propone la palabra
+                sessio, que
+                aparece en expresiones como sessio legionis o in sessione legionum, teoría que reforzaría la presencia
+                de unas
+                «aras sestianas» o «aras sessianas» que algunos autores sitúan en la Campa Torres y Sánchez interpreta
+                como
+                «aras de la sessio» o «aras sessianas», es decir, «aras gijonesas». Otras explicaciones han buscado el
+                origen
+                del término en antropónimos como gegionus, gegion, segius (según Manzanares); sassonius (según Schulze)
+                o
+                hipotéticos *iaionus, *ieionus (según García Arias). Por otra parte, según sostiene el filólogo Xosé
+                Lluis
+                García Arias, la enormemente popular identificación de Gijón con la Gigia, citada por Ptolomeo, en
+                realidad no
+                tendría nada que ver con la urbe asturiana sino que correspondería a una población situada en lo que hoy
+                es
+                territorio leonés, quizá próxima al río Cea. También cabe suponer que puesto que la ciudad fue fundada
+                por la
                 Legio VII Gemina deba de ahí su nombre
             </p>
         </article>
         <article>
-            <h3>OFICIALIDAD</h3>
+            <h3 id="ofi">OFICIALIDAD</h3>
             <p>
-                El Estatuto de Autonomía del Principado de Asturias prevé la protección, uso y promoción de la lengua asturiana
-                en la comunidad autónoma. La Ley 1/1998, de 23 de marzo, de uso y promoción del bable/asturiano desarrolló la
+                El Estatuto de Autonomía del Principado de Asturias prevé la protección, uso y promoción de la lengua
+                asturiana
+                en la comunidad autónoma. La Ley 1/1998, de 23 de marzo, de uso y promoción del bable/asturiano
+                desarrolló la
                 anterior norma y dispuso que los topónimos de la región tendrían la denominación oficial en su forma
-                tradicional. Posteriormente, y siguiendo los pasos descritos por el Decreto 98/2002, de 18 de julio, por el
-                que se establece el procedimiento de recuperación y fijación de la toponimia asturiana, el Gobierno de la
-                comunidad autónoma oficializó los nombres vernáculos de todos los núcleos de población del concejo de Gijón.
-                Así, por ejemplo, el topónimo de la capital municipal pasó a ser bilingüe: «Gijón/Xixón». No obstante, el
-                Decreto 98/2002 indica que para la alteración de la denominación de los concejos deberá tramitarse un expediente
-                conforme a lo dispuesto en la Ley 7/1985, de 2 de abril, reguladora de las Bases del Régimen Local. Según
-                esta última norma, los cambios de denominación de los municipios españoles solo tendrán carácter oficial cuando
-                se publiquen en el Boletín Oficial del Estado. Dado que esto aún no ha sucedido para Gijón, a día de hoy el
+                tradicional. Posteriormente, y siguiendo los pasos descritos por el Decreto 98/2002, de 18 de julio, por
+                el
+                que se establece el procedimiento de recuperación y fijación de la toponimia asturiana, el Gobierno de
+                la
+                comunidad autónoma oficializó los nombres vernáculos de todos los núcleos de población del concejo de
+                Gijón.
+                Así, por ejemplo, el topónimo de la capital municipal pasó a ser bilingüe: «Gijón/Xixón». No obstante,
+                el
+                Decreto 98/2002 indica que para la alteración de la denominación de los concejos deberá tramitarse un
+                expediente
+                conforme a lo dispuesto en la Ley 7/1985, de 2 de abril, reguladora de las Bases del Régimen Local.
+                Según
+                esta última norma, los cambios de denominación de los municipios españoles solo tendrán carácter oficial
+                cuando
+                se publiquen en el Boletín Oficial del Estado. Dado que esto aún no ha sucedido para Gijón, a día de hoy
+                el
                 nombre castellano es el único oficial para el concejo.
             </p>
         </article>
@@ -157,83 +180,458 @@
             </div>
             <hr>
             <p>
-                El escudo de Gijón, de cuyo uso se tiene constancia desde 1649, representa a Don Pelayo, primer rey de Asturias,
+                El escudo de Gijón, de cuyo uso se tiene constancia desde 1649, representa a Don Pelayo, primer rey de
+                Asturias,
                 sosteniendo una espada en su mano derecha y la Cruz de la Victoria prolongada con un báculo en la mano
-                izquierda. La leyenda vincula a Don Pelayo con Munuza, quien fuera gobernador musulmán de Gijón y con quien
-                entró en lucha ofendido por el matrimonio no consentido entre el gobernador y la hermana de este.18​ Preside el
-                conjunto la corona real española.17​
-        
-                La bandera de Gijón es rectangular, de un largo igual a tres medios su ancho, blanca, tiene un ribete rojo en
-                sus cuatro lados de un ancho equivalente a un sexto de su largo y lleva el escudo municipal en el centro en
-                versión polícroma.19​ Tiene su origen en la matrícula asignada a la provincia marítima de Gijón por el Gobierno
+                izquierda. La leyenda vincula a Don Pelayo con Munuza, quien fuera gobernador musulmán de Gijón y con
+                quien
+                entró en lucha ofendido por el matrimonio no consentido entre el gobernador y la hermana de este.
+                Preside el
+                conjunto la corona real española.
+
+                La bandera de Gijón es rectangular, de un largo igual a tres medios su ancho, blanca, tiene un ribete
+                rojo en
+                sus cuatro lados de un ancho equivalente a un sexto de su largo y lleva el escudo municipal en el centro
+                en
+                versión polícroma. Tiene su origen en la matrícula asignada a la provincia marítima de Gijón por el
+                Gobierno
                 de España ―Real Decreto de 30 de julio de 1845―.20
             </p>
             <img id="escudoGijon" src="imagenes/escudoGijon.png" alt="">
         </article>
     </section>
+    <section>
+        <div class="tituloSeccion">
+            <ul>
+                <li>
+                    <h2 id="geo">GEOGRAFIA</h2>
+                </li>
+                <li><a href="#encabezado"><img class="flechaarriba" src="imagenes/flecha.png" alt=""></a></li>
+            </ul>
+        </div>
+        <hr>
+        <article style="display: flex;">
+            <img style="width: 600px;" src="imagenes/concejos.jpg" alt="">
+            <p style="margin-left: 20px;">
+                Gijón está situado en el centro de la costa cantábrica del Principado de Asturias, España, en el
+                suroeste de
+                Europa, al norte de la península ibérica, sobre una rasa litoral en las estribaciones de la cordillera
+                Cantábrica. Forma parte de la vertiente hidrográfica cantábrica y se sitúa en su punto más alto (Pico
+                Cima) a
+                737 m s. n. m.. El punto más alto de la zona urbana (Ceares) se sitúa a 59 m s. n. m.. El término
+                municipal de
+                Gijón tiene una superficie de 182,1 km²21 y una forma vagamente rectangular. La ciudad, que ocupa una
+                superficie aproximada de 13,9 km², está situada en el tramo costero central del concejo, en una bahía
+                dividida
+                por el Cerro de Santa Catalina (Cimadevilla) que separa la playa de San Lorenzo al este, del Puerto
+                Deportivo,
+                playas de Poniente y Arbeyal, astilleros y puerto de El Musel, al oeste.
 
-    
-    
-    
+                El término municipal de Gijón limita con los siguientes concejos: Carreño al noroeste, Corvera al oeste,
+                Llanera
+                al suroeste, Siero al sur y Villaviciosa al este. Con Sariego sus límites llegan a unirse en un pequeño
+                punto
+                correspondiente a la Peña de los Cuatro Jueces, así llamada por constituir la confluencia de los
+                concejos de
+                Gijón, Villaviciosa, Sariego y Siero.
+            </p>
+        </article>
+        <article>
+            <h3 id="hidro">HIDROGRAFIA</h3>
+            <p>
+                Gijón forma parte de la vertiente hidrográfica cantábrica. Los ríos más destacables del concejo son el
+                río Aboño
+                y el río Piles. El río Aboño es el de mayor tamaño y caudal. Nace en el Alto de la Miranda (Llanera) y
+                desemboca
+                en el límite entre el concejo de Gijón y el de Carreño formando así la ría de Aboño, fuertemente
+                industrializada
+                en las últimas décadas. Este río se encuentra embalsado a la altura de San Andrés de los Tacones, al
+                oeste del
+                concejo al lado de la autopista A-66, y sirve de abastecimiento de la empresa ArcelorMittal. El
+                principal
+                afluente del Aboño es el río Pinzales, de similar importancia hidrológica. El Pinzales nace en el
+                concejo de
+                Siero y atraviesa el concejo de Gijón de sur a norte. El río Piles, de gran importancia por atravesar
+                parte del
+                casco urbano de la ciudad, es un río corto y de caudal escaso cuyos 10 o 15 kilómetros transcurren
+                íntegramente
+                dentro de los límites del municipio, atravesando la parte este de la ciudad hasta desembocar en la playa
+                de San
+                Lorenzo. Existen otros arroyos menores (Peña Francia, Santurio, San Miguel, Tremañes, Cutis, Pilón,
+                etc), de los
+                cuales el más importante es el de La Ñora, que forma un tramo de la frontera con el concejo de
+                Villaviciosa y
+                desemboca en la playa del mismo nombre.
+            </p>
+        </article>
+        <article>
+            <h3 id="clim">CLIMA</h3>
+            <p>
+                El clima de Gijón, determinado por la presencia del mar y la baja altitud del concejo, es un clima
+                oceánico, con
+                abundantes precipitaciones desde el otoño hasta los primeros días de la primavera, y un tiempo más
+                estable y
+                cálido en verano. Según los datos ofrecidos por la Agencia Estatal de Meteorología para la estación
+                meteorológica de Gijón (período 1971-2000), la media del mes más frío (enero) fue de 8,9 °C, la media
+                del mes
+                más cálido (agosto) fue de 19,7 °C y la temperatura media anual es de 13,8 °C (media anual de máximas:
+                17,6 °C;
+                media anual de mínimas: 9 °C).22 La nieve cubre ocasionalmente en el invierno los montes del concejo que
+                rodean
+                la ciudad y llega de forma esporádica al centro de la ciudad, con una media de un día de nieve anual.
 
-    <p>
-        Gijón está situado en el centro de la costa cantábrica del Principado de Asturias, España, en el suroeste de
-        Europa, al norte de la península ibérica, sobre una rasa litoral en las estribaciones de la cordillera
-        Cantábrica. Forma parte de la vertiente hidrográfica cantábrica y se sitúa en su punto más alto (Pico Cima) a
-        737 m s. n. m.. El punto más alto de la zona urbana (Ceares) se sitúa a 59 m s. n. m.. El término municipal de
-        Gijón tiene una superficie de 182,1 km²21​ y una forma vagamente rectangular. La ciudad, que ocupa una
-        superficie aproximada de 13,9 km², está situada en el tramo costero central del concejo, en una bahía dividida
-        por el Cerro de Santa Catalina (Cimadevilla) que separa la playa de San Lorenzo al este, del Puerto Deportivo,
-        playas de Poniente y Arbeyal, astilleros y puerto de El Musel, al oeste.
+                La precipitación media anual es de 920 l/m². Ello se debe al denominado efecto de ladera, según el cual
+                las
+                lluvias más intensas se localizan en las zonas más altas y las mínimas en zonas costeras del centro y el
+                occidente. Coincidiendo con la época de menos lluvias se dan situaciones de aridez y sequía (el 11 % de
+                los
+                meses hay aridez y el 9 % el déficit hídrico es grave).
 
-        El término municipal de Gijón limita con los siguientes concejos: Carreño al noroeste, Corvera al oeste, Llanera
-        al suroeste, Siero al sur y Villaviciosa al este. Con Sariego sus límites llegan a unirse en un pequeño punto
-        correspondiente a la Peña de los Cuatro Jueces, así llamada por constituir la confluencia de los concejos de
-        Gijón, Villaviciosa, Sariego y Siero.
-    </p>
+                Los vientos son esporádicos y estacionales. En invierno soplan preferentemente del sureste, templados y
+                cálidos,
+                a causa de la retirada hacia el sur del anticiclón de las Azores, con lo que las borrascas atlánticas
+                siguen una
+                trayectoria más meridional. En verano la situación se invierte, predominando vientos del nordeste, fríos
+                y
+                secos.
+            </p>
+            <table class="wikitable collapsible" style="width:60%; text-align:center; font-size:90%;"
+                id="collapsibleTable0">
 
-    <p>
-        Gijón forma parte de la vertiente hidrográfica cantábrica. Los ríos más destacables del concejo son el río Aboño
-        y el río Piles. El río Aboño es el de mayor tamaño y caudal. Nace en el Alto de la Miranda (Llanera) y desemboca
-        en el límite entre el concejo de Gijón y el de Carreño formando así la ría de Aboño, fuertemente industrializada
-        en las últimas décadas. Este río se encuentra embalsado a la altura de San Andrés de los Tacones, al oeste del
-        concejo al lado de la autopista A-66, y sirve de abastecimiento de la empresa ArcelorMittal. El principal
-        afluente del Aboño es el río Pinzales, de similar importancia hidrológica. El Pinzales nace en el concejo de
-        Siero y atraviesa el concejo de Gijón de sur a norte. El río Piles, de gran importancia por atravesar parte del
-        casco urbano de la ciudad, es un río corto y de caudal escaso cuyos 10 o 15 kilómetros transcurren íntegramente
-        dentro de los límites del municipio, atravesando la parte este de la ciudad hasta desembocar en la playa de San
-        Lorenzo. Existen otros arroyos menores (Peña Francia, Santurio, San Miguel, Tremañes, Cutis, Pilón, etc), de los
-        cuales el más importante es el de La Ñora, que forma un tramo de la frontera con el concejo de Villaviciosa y
-        desemboca en la playa del mismo nombre.
-    </p>
-    <p id="lola">
-        El clima de Gijón, determinado por la presencia del mar y la baja altitud del concejo, es un clima oceánico, con
-        abundantes precipitaciones desde el otoño hasta los primeros días de la primavera, y un tiempo más estable y
-        cálido en verano. Según los datos ofrecidos por la Agencia Estatal de Meteorología para la estación
-        meteorológica de Gijón (período 1971-2000), la media del mes más frío (enero) fue de 8,9 °C, la media del mes
-        más cálido (agosto) fue de 19,7 °C y la temperatura media anual es de 13,8 °C (media anual de máximas: 17,6 °C;
-        media anual de mínimas: 9 °C).22​ La nieve cubre ocasionalmente en el invierno los montes del concejo que rodean
-        la ciudad y llega de forma esporádica al centro de la ciudad, con una media de un día de nieve anual.
+                <tbody>
+        
+                    <tr>
+                        <th style="border-right-width:medium">Mes
+                        </th>
+                        <th abbr="Enero"><abbr title="enero">Ene.</abbr>
+                        </th>
+                        <th abbr="Febrero"><abbr title="febrero">Feb.</abbr>
+                        </th>
+                        <th abbr="Marzo"><abbr title="marzo">Mar.</abbr>
+                        </th>
+                        <th abbr="Abril"><abbr title="abril">Abr.</abbr>
+                        </th>
+                        <th abbr="Mayo"><abbr title="mayo">May.</abbr>
+                        </th>
+                        <th abbr="Junio"><abbr title="junio">Jun.</abbr>
+                        </th>
+                        <th abbr="Julio"><abbr title="julio">Jul.</abbr>
+                        </th>
+                        <th abbr="Agosto"><abbr title="agosto">Ago.</abbr>
+                        </th>
+                        <th abbr="Septiembre"><abbr title="septiembre">Sep.</abbr>
+                        </th>
+                        <th abbr="Octubre"><abbr title="octubre">Oct.</abbr>
+                        </th>
+                        <th abbr="Noviembre"><abbr title="noviembre">Nov.</abbr>
+                        </th>
+                        <th abbr="Diciembre"><abbr title="diciembre">Dic.</abbr>
+                        </th>
+                        <th style="border-left-width:medium" abbr="Anual">Anual
+                        </th>
+                    </tr>
 
-        La precipitación media anual es de 920 l/m². Ello se debe al denominado efecto de ladera, según el cual las
-        lluvias más intensas se localizan en las zonas más altas y las mínimas en zonas costeras del centro y el
-        occidente. Coincidiendo con la época de menos lluvias se dan situaciones de aridez y sequía (el 11 % de los
-        meses hay aridez y el 9 % el déficit hídrico es grave).
+                    <tr>
+                        <th height="16"><a href="/wiki/Temperatura_m%C3%A1xima_absoluta" class="mw-redirect"
+                                title="Temperatura máxima absoluta">Temp. máx. abs.</a> (°C)
+                        </th>
+                        <td
+                            style="border-left-width:medium; background:#FF6400;color:#000000;font-size:85%;text-align:center;">
+                            23.6
+                        </td>
+                        <td style="background:#FF6400;color:#000000;font-size:85%;text-align:center;">23
+                        </td>
+                        <td style="background:#FF3C00;color:#000000;font-size:85%;text-align:center;">27
+                        </td>
+                        <td style="background:#FF3C00;color:#000000;font-size:85%;text-align:center;">28
+                        </td>
+                        <td style="background:#FF2800;color:#000000;font-size:85%;text-align:center;">31.8
+                        </td>
+                        <td style="background:#FF0000;color:#000000;font-size:85%;text-align:center;">36.4
+                        </td>
+                        <td style="background:#FF2800;color:#000000;font-size:85%;text-align:center;">31.4
+                        </td>
+                        <td style="background:#FF2800;color:#000000;font-size:85%;text-align:center;">30
+                        </td>
+                        <td style="background:#FF1400;color:#000000;font-size:85%;text-align:center;">34.6
+                        </td>
+                        <td style="background:#FF2800;color:#000000;font-size:85%;text-align:center;">30.4
+                        </td>
+                        <td style="background:#FF5000;color:#000000;font-size:85%;text-align:center;">26.1
+                        </td>
+                        <td style="background:#FF5000;color:#000000;font-size:85%;text-align:center;">25
+                        </td>
+                        <td
+                            style="border-left-width:medium; background:#FF0000;color:#000000;font-size:85%;text-align:center;">
+                            <b>36.4</b>
+                        </td>
+                    </tr>
 
-        Los vientos son esporádicos y estacionales. En invierno soplan preferentemente del sureste, templados y cálidos,
-        a causa de la retirada hacia el sur del anticiclón de las Azores, con lo que las borrascas atlánticas siguen una
-        trayectoria más meridional. En verano la situación se invierte, predominando vientos del nordeste, fríos y
-        secos.
-    </p>
+                    <tr>
+                        <th height="16">Temp. máx. media (°C)
+                        </th>
+                        <td
+                            style="border-left-width:medium; background:#FFA500;color:#000000;font-size:85%;text-align:center;">
+                            13.1
+                        </td>
+                        <td style="background:#FFA500;color:#000000;font-size:85%;text-align:center;">13.8
+                        </td>
+                        <td style="background:#FFA500;color:#000000;font-size:85%;text-align:center;">14.9
+                        </td>
+                        <td style="background:#FF9900;color:#000000;font-size:85%;text-align:center;">15.6
+                        </td>
+                        <td style="background:#FF9900;color:#000000;font-size:85%;text-align:center;">17.8
+                        </td>
+                        <td style="background:#FF8C00;color:#000000;font-size:85%;text-align:center;">20.2
+                        </td>
+                        <td style="background:#FF6400;color:#000000;font-size:85%;text-align:center;">22.4
+                        </td>
+                        <td style="background:#FF6400;color:#000000;font-size:85%;text-align:center;">23.2
+                        </td>
+                        <td style="background:#FF6400;color:#000000;font-size:85%;text-align:center;">21.8
+                        </td>
+                        <td style="background:#FF8C00;color:#000000;font-size:85%;text-align:center;">19.0
+                        </td>
+                        <td style="background:#FF9900;color:#000000;font-size:85%;text-align:center;">15.6
+                        </td>
+                        <td style="background:#FFA500;color:#000000;font-size:85%;text-align:center;">14.0
+                        </td>
+                        <td
+                            style="border-left-width:medium; background:#FF9900;color:#000000;font-size:85%;text-align:center;">
+                            <b>17.6</b>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th height="16">Temp. media (°C)
+                        </th>
+                        <td
+                            style="border-left-width:medium; background:#FFFF99;color:#000000;font-size:85%;text-align:center;">
+                            8.9
+                        </td>
+                        <td style="background:#FFCC66;color:#000000;font-size:85%;text-align:center;">9.6
+                        </td>
+                        <td style="background:#FFCC66;color:#000000;font-size:85%;text-align:center;">10.7
+                        </td>
+                        <td style="background:#FFCC66;color:#000000;font-size:85%;text-align:center;">11.8
+                        </td>
+                        <td style="background:#FFA500;color:#000000;font-size:85%;text-align:center;">14.3
+                        </td>
+                        <td style="background:#FF9900;color:#000000;font-size:85%;text-align:center;">16.9
+                        </td>
+                        <td style="background:#FF8C00;color:#000000;font-size:85%;text-align:center;">19.2
+                        </td>
+                        <td style="background:#FF8C00;color:#000000;font-size:85%;text-align:center;">19.7
+                        </td>
+                        <td style="background:#FF9900;color:#000000;font-size:85%;text-align:center;">17.9
+                        </td>
+                        <td style="background:#FF9900;color:#000000;font-size:85%;text-align:center;">15.0
+                        </td>
+                        <td style="background:#FFCC66;color:#000000;font-size:85%;text-align:center;">11.6
+                        </td>
+                        <td style="background:#FFCC66;color:#000000;font-size:85%;text-align:center;">9.9
+                        </td>
+                        <td
+                            style="border-left-width:medium; background:#FFA500;color:#000000;font-size:85%;text-align:center;">
+                            <b>13.8</b>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th height="16">Temp. mín. media (°C)
+                        </th>
+                        <td
+                            style="border-left-width:medium; background:#FFFFCC;color:#000000;font-size:85%;text-align:center;">
+                            4.7
+                        </td>
+                        <td style="background:#FFFFCC;color:#000000;font-size:85%;text-align:center;">5.4
+                        </td>
+                        <td style="background:#FFFF99;color:#000000;font-size:85%;text-align:center;">6.6
+                        </td>
+                        <td style="background:#FFFF99;color:#000000;font-size:85%;text-align:center;">8.1
+                        </td>
+                        <td style="background:#FFCC66;color:#000000;font-size:85%;text-align:center;">10.9
+                        </td>
+                        <td style="background:#FFA500;color:#000000;font-size:85%;text-align:center;">13.6
+                        </td>
+                        <td style="background:#FF9900;color:#000000;font-size:85%;text-align:center;">16.0
+                        </td>
+                        <td style="background:#FF9900;color:#000000;font-size:85%;text-align:center;">16.2
+                        </td>
+                        <td style="background:#FFA500;color:#000000;font-size:85%;text-align:center;">14.1
+                        </td>
+                        <td style="background:#FFCC66;color:#000000;font-size:85%;text-align:center;">11.0
+                        </td>
+                        <td style="background:#FFFF99;color:#000000;font-size:85%;text-align:center;">7.6
+                        </td>
+                        <td style="background:#FFFFCC;color:#000000;font-size:85%;text-align:center;">5.8
+                        </td>
+                        <td
+                            style="border-left-width:medium; background:#FFCC66;color:#000000;font-size:85%;text-align:center;">
+                            <b>10.0</b>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th height="16"><a href="/wiki/Temperatura_m%C3%ADnima_absoluta" class="mw-redirect"
+                                title="Temperatura mínima absoluta">Temp. mín. abs.</a> (°C)
+                        </th>
+                        <td
+                            style="border-left-width:medium; background:#B4C8FF;color:#000000;font-size:85%;text-align:center;">
+                            -9.6
+                        </td>
+                        <td style="background:#DCF0FF;color:#000000;font-size:85%;text-align:center;">-6.0
+                        </td>
+                        <td style="background:#F0FFFF;color:#000000;font-size:85%;text-align:center;">-3.0
+                        </td>
+                        <td style="background:#F0FFFF;color:#000000;font-size:85%;text-align:center;">-1.4
+                        </td>
+                        <td style="background:#FFFFFF;color:#000000;font-size:85%;text-align:center;">2.2
+                        </td>
+                        <td style="background:#FFFFCC;color:#000000;font-size:85%;text-align:center;">5.8
+                        </td>
+                        <td style="background:#FFFFCC;color:#000000;font-size:85%;text-align:center;">5.6
+                        </td>
+                        <td style="background:#FFFFCC;color:#000000;font-size:85%;text-align:center;">5.2
+                        </td>
+                        <td style="background:#FFFFCC;color:#000000;font-size:85%;text-align:center;">4.7
+                        </td>
+                        <td style="background:#FFFFFF;color:#000000;font-size:85%;text-align:center;">2.6
+                        </td>
+                        <td style="background:#DCF0FF;color:#000000;font-size:85%;text-align:center;">-3.4
+                        </td>
+                        <td style="background:#C8DCFF;color:#000000;font-size:85%;text-align:center;">-6.8
+                        </td>
+                        <td
+                            style="border-left-width:medium; background:#B4C8FF;color:#000000;font-size:85%;text-align:center;">
+                            <b>-9.6</b>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th height="16"><a href="/wiki/Precipitaci%C3%B3n_(meteorolog%C3%ADa)"
+                                title="Precipitación (meteorología)">Precipitación</a> total (mm)
+                        </th>
+                        <td
+                            style="border-left-width:medium; background:#7474FF;color:#FFFFFF;;font-size:85%;text-align:center;">
+                            94
+                        </td>
+                        <td style="background:#7474FF;;font-size:85%;text-align:center;">85
+                        </td>
+                        <td style="background:#9494FF;;font-size:85%;text-align:center;">74
+                        </td>
+                        <td style="background:#7474FF;color:#FFFFFF;;font-size:85%;text-align:center;">93
+                        </td>
+                        <td style="background:#8282FF;;font-size:85%;text-align:center;">79
+                        </td>
+                        <td style="background:#B0B0FF;;font-size:85%;text-align:center;">47
+                        </td>
+                        <td style="background:#B0B0FF;;font-size:85%;text-align:center;">45
+                        </td>
+                        <td style="background:#B0B0FF;;font-size:85%;text-align:center;">54
+                        </td>
+                        <td style="background:#9494FF;;font-size:85%;text-align:center;">70
+                        </td>
+                        <td style="background:#6666FF;color:#FFFFFF;;font-size:85%;text-align:center;">104
+                        </td>
+                        <td style="background:#4646FF;color:#FFFFFF;;font-size:85%;text-align:center;">120
+                        </td>
+                        <td style="background:#6666FF;color:#FFFFFF;;font-size:85%;text-align:center;">104
+                        </td>
+                        <td style="border-left-width:medium; background:#8282FF;;font-size:85%;text-align:center;">
+                            <b>971</b>
+                        </td>
+                    </tr>
+
+
+
+
+
+                    <tr>
+                        <th height="16">Días de precipitaciones (≥ 1&nbsp;mm)
+                        </th>
+                        <td
+                            style="border-left-width:medium; background:#508CFF;color:#000000;font-size:85%;text-align:center;">
+                            12
+                        </td>
+                        <td style="background:#508CFF;color:#000000;font-size:85%;text-align:center;">11
+                        </td>
+                        <td style="background:#508CFF;color:#000000;font-size:85%;text-align:center;">10
+                        </td>
+                        <td style="background:#508CFF;color:#000000;font-size:85%;text-align:center;">12
+                        </td>
+                        <td style="background:#508CFF;color:#000000;font-size:85%;text-align:center;">11
+                        </td>
+                        <td style="background:#A0C8F0;color:#000000;font-size:85%;text-align:center;">7
+                        </td>
+                        <td style="background:#A0C8F0;color:#000000;font-size:85%;text-align:center;">6
+                        </td>
+                        <td style="background:#A0C8F0;color:#000000;font-size:85%;text-align:center;">7
+                        </td>
+                        <td style="background:#A0C8F0;color:#000000;font-size:85%;text-align:center;">8
+                        </td>
+                        <td style="background:#508CFF;color:#000000;font-size:85%;text-align:center;">11
+                        </td>
+                        <td style="background:#508CFF;color:#000000;font-size:85%;text-align:center;">12
+                        </td>
+                        <td style="background:#508CFF;color:#000000;font-size:85%;text-align:center;">12
+                        </td>
+                        <td
+                            style="border-left-width:medium; background:#508CFF;color:#000000;font-size:85%;text-align:center;">
+                            <b>121</b>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th height="16"><a href="/wiki/Heliofan%C3%ADa" title="Heliofanía">Horas de sol</a>
+                        </th>
+                        <td
+                            style="border-left-width:medium; background:#a89f73;color:#000000;font-size:85%;text-align:center;">
+                            103
+                        </td>
+                        <td style="background:#b3a973;color:#000000;font-size:85%;text-align:center;">109
+                        </td>
+                        <td style="background:#beb271;color:#000000;font-size:85%;text-align:center;">137
+                        </td>
+                        <td style="background:#c9bb6d;color:#000000;font-size:85%;text-align:center;">151
+                        </td>
+                        <td style="background:#d3c368;color:#000000;font-size:85%;text-align:center;">167
+                        </td>
+                        <td style="background:#dccb61;color:#000000;font-size:85%;text-align:center;">180
+                        </td>
+                        <td style="background:#e5d357;color:#000000;font-size:85%;text-align:center;">194
+                        </td>
+                        <td style="background:#e5d357;color:#000000;font-size:85%;text-align:center;">190
+                        </td>
+                        <td style="background:#d3c368;color:#000000;font-size:85%;text-align:center;">158
+                        </td>
+                        <td style="background:#beb271;color:#000000;font-size:85%;text-align:center;">132
+                        </td>
+                        <td style="background:#a89f73;color:#000000;font-size:85%;text-align:center;">106
+                        </td>
+                        <td style="background:#9b9471;color:#000000;font-size:85%;text-align:center;">92
+                        </td>
+                        <td
+                            style="border-left-width:medium; background:#b3a973;color:#000000;font-size:85%;text-align:center;">
+                            <b>1721</b>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+    </section>
+
+
+
 
     <p>
         Los más antiguos testimonios de presencia humana en lo que hoy conocemos como concejo de Gijón datan del
         Mesolítico y consisten en instrumentos de piedra llamados «picos asturienses», hallados en la desembocadura del
         río Piles y en Tremañes. Estas herramientas permitían arrancar de las rocas moluscos como las lapas, los cuales
-        formaban parte de la dieta de los primeros habitantes de la zona.25​
+        formaban parte de la dieta de los primeros habitantes de la zona.
 
         Más adelante, en el Neolítico, se construyeron en el Monte Deva una serie de túmulos (primitivos enterramientos)
-        y en el Monte Areo un conjunto dolménico considerado como uno de los más importantes de la costa Cantábrica.26​
+        y en el Monte Areo un conjunto dolménico considerado como uno de los más importantes de la costa Cantábrica.
         En 1990, unas prospecciones arqueológicas permitieron sacar a la luz 30 dólmenes, repartidos en dos sectores
         diferentes: Los Llanos y Les Huelgues de San Pablo, que según algunos expertos están agrupados en un «cierto
         orden monumental». Sucesivas campañas arqueológicas han permitido el estudio de un túmulo en el área de San
@@ -242,30 +640,30 @@
         que no es frecuente encontrar dólmenes de corredor en el área del Cantábrico. Este conjunto dolménico está
         datado en el 5000 a. C. Estos monumentos megalíticos indicarían que en el actual concejo gijonés existía una
         importante población fija, que tenía como objetivo la demarcación del territorio que cada uno consideraba
-        propio.27​
+        propio.
     </p>
     No se tienen noticias de asentamientos permanentes en el concejo hasta la aparición de los castros. El más conocido
     de estos poblados fortificados es el situado en la Campa Torres (Noega), con su origen en los siglos vi y v a. C.,
     poblado por astures de la gens de los cilúrnigos y posteriormente romanizado al tratarse de un perfecto candidato
-    para acoger temporalmente efectivos militares tras la conquista.28​ En cambio, algunos autores opinan que debió
+    para acoger temporalmente efectivos militares tras la conquista. En cambio, algunos autores opinan que debió
     existir algún tipo de población de carácter autóctono en el lugar que ocupa actualmente la ciudad, aunque no existen
-    datos fidedignos que apoyen estas suposiciones.29​
+    datos fidedignos que apoyen estas suposiciones.
 
     El castro de Noega fue progresivamente abandonado como consecuencia de la fundación en el siglo i d. C. de un nuevo
     asentamiento romano a los pies del Cerro de Santa Catalina, en el actual barrio de Cimadevilla. Este se convirtió en
-    un importante puerto estratégico en la ruta marítima del Cantábrico30​ y un centro regional o caput ciutatis que
-    alcanzó su esplendor en el Bajo Imperio.25​ Las investigaciones arqueológicas realizadas en el casco urbano a partir
+    un importante puerto estratégico en la ruta marítima del Cantábrico y un centro regional o caput ciutatis que
+    alcanzó su esplendor en el Bajo Imperio. Las investigaciones arqueológicas realizadas en el casco urbano a partir
     de la década de 1980 han descubierto y documentado los restos de termas (siglo i a ii d. C.), murallas (siglo iii a
     iv), viviendas, aljibes y una fábrica de salazones, entre otros hallazgos. Entre los vestigios de ocupación romana
     encontrados en el concejo destaca una gran villa del siglo iv en Veranes que conserva la parte residencial o pars
-    urbana y la de servicios o pars rustica.31​
+    urbana y la de servicios o pars rustica.
     <p>
         Tras la romanización hubo una época muy oscura, la cual transcurrió desde el fin del control romano hasta la
         llegada de los musulmanes. De hecho, el paso a la época medieval estuvo marcado por la pérdida progresiva de las
-        funciones urbanas provocado por el colapso de la civilización romana.25​ Las construcciones romanas son
+        funciones urbanas provocado por el colapso de la civilización romana. Las construcciones romanas son
         reaprovechadas para nuevas funciones. Así, se ha documentado el uso del complejo termal como lugar de habitación
         y de espacio funerario asociado a la iglesia de San Pedro, y en la zona rural del concejo la villa de Veranes
-        fue reconvertida en iglesia y cementerio y la de Beloño en fortificación.33​
+        fue reconvertida en iglesia y cementerio y la de Beloño en fortificación.
 
         Gijón fue capital de los dominios transcantábricos musulmanes bajo mando del bereber Munuza, quien fijó aquí su
         residencia y puso destacamentos de tropas. También situó asentamientos militares en algún otro punto clave, pues
@@ -277,21 +675,21 @@
         En el año 1147 un gran grupo de guerreros cruzados hicieron una parada en el puerto de Gijón. Habían salido de
         Dartmouth con el objetivo de conquistar Tierra Santa y fueron sorprendidos por un temporal en el mar Cantábrico.
         En un documento en el que cuentan estos hechos llaman a la ciudad Mala Rupis, que en latín significa «peña
-        mala», tal vez por su aspecto poco accesible.34​
+        mala», tal vez por su aspecto poco accesible.
 
-        A principios del siglo xiii la crónica de Rodrigo Jiménez de Rada habla de Gijón como ciuitas deserta.25​ Y a
-        pesar de que en 1270 Alfonso X le concedió fuero y Carta Puebla,35​ se trataba de un núcleo irrelevante tanto
+        A principios del siglo xiii la crónica de Rodrigo Jiménez de Rada habla de Gijón como ciuitas deserta. Y a
+        pesar de que en 1270 Alfonso X le concedió fuero y Carta Puebla, se trataba de un núcleo irrelevante tanto
         demográfica como económicamente.
 
         El siglo xiv, época en la que el poder de la nobleza alcanza su máximo, estuvo marcado por una lucha dinástica
         tras la muerte de Alfonso XI. Se trata de una guerra entre Pedro I el Cruel, descendiente legítimo, y el
         bastardo Enrique de Trastámara. En los años siguientes Gijón fue centro de luchas entre el conde Alfonso
         Enríquez y Enrique III, en las que fue cercada, incendiada y arrasada durante un duro sitio en 1394, para
-        terminar desapareciendo como centro urbano. Otras fuentes,29​ sin embargo, opinan que se produjo un
+        terminar desapareciendo como centro urbano. Otras fuentes, sin embargo, opinan que se produjo un
         estancamiento y regresión en el crecimiento del núcleo urbano sin llegar nunca al abandono. Como consecuencia,
         durante este periodo la zona rural del concejo adquirió bastante importancia, localizándose la población
         diseminada por el campo al amparo de iglesias y monasterios construidos en estilo románico, y levantándose
-        asimismo algunas fortalezas.36​37​ Un ejemplo notable de estas últimas construcciones es el desaparecido
+        asimismo algunas fortalezas. Un ejemplo notable de estas últimas construcciones es el desaparecido
         castillo de Curiel, que servía para controlar el paso desde el centro de la región a la villa gijonesa. Aún hoy
         se conservan vestigios de esta época, destacando la torre de la familia Valdés —conocida popularmente como el
         Turruxón de Trubia— y las iglesias de San Miguel de Dueñas en Bernueces y de San Juan Bautista en Cenero.
@@ -301,37 +699,37 @@
         subsistencia.
     </p>
     <p>
-        A principios del siglo xix la localidad se dividía en los barrios de Cima de Villa y Bajo de Villa.40​ En el
+        A principios del siglo xix la localidad se dividía en los barrios de Cima de Villa y Bajo de Villa. En el
         nuevo espacio urbano podían distinguirse tres partes: el arrabal de La Rueda o barrio del Carmen —al pie de la
         dársena—, el Humedal —en el límite suroccidental, construido sobre unas marismas desecadas— y el ensanche
         jovellanista. Este conjunto quedó rodeado en 1836 por una cerca militar construida con motivo de la primera
         guerra carlista.25
         En la segunda mitad del siglo Gijón experimentó un gran desarrollo debido fundamentalmente a la
         industrialización. De hecho, el crecimiento demográfico fue tal que la villa pasó de 10 000 habitantes en 1857 a
-        27 000 habitantes en 1900.41​ Un antecedente de este proceso fue la instalación en 1836 de la fábrica de
-        cigarros en el antiguo convento de las Agustinas en Cimadevilla.41​ El proceso de crecimiento se aceleró en los
+        27 000 habitantes en 1900. Un antecedente de este proceso fue la instalación en 1836 de la fábrica de
+        cigarros en el antiguo convento de las Agustinas en Cimadevilla. El proceso de crecimiento se aceleró en los
         años siguientes por diversos factores, como la explotación del carbón en las Cuencas Mineras y la construcción
         de nuevas infraestructuras. Destacan la carretera a León y la Carretera Carbonera a Langreo. Esta última,
         inaugurada en 1842, fue la primera carretera de peaje de España. Los elevados costes que generaba motivaron la
         búsqueda de otros medios de transporte para el carbón. Como resultado, en 1852 se inauguró el Ferrocarril de
-        Langreo, el primero en circular por Asturias.42​
+        Langreo, el primero en circular por Asturias.
 
         Todo esto hizo de Gijón una villa industrial en la cual la burguesía desempeñó un papel muy importante en el
         desarrollo urbano, creándose nuevas calles y plazas bien a través de reformas interiores en el casco histórico,
-        bien a través de planes de ensanche para promover la expansión de la ciudad.41​ El proyecto de ensanche sobre el
+        bien a través de planes de ensanche para promover la expansión de la ciudad. El proyecto de ensanche sobre el
         arenal de San Lorenzo se aprobó en 1867 y fue proyectado en terrenos en propiedad del primer marqués de Casa
         Valdés, al este de la villa. La trama ortogonal entonces creada, que comienza en la plaza de San Miguel y
         termina en la Avenida de Castilla, dio origen al actual barrio de La Arena.
 
         Este nuevo desarrollo vino acompañado de más infraestructuras como la traída de aguas, el alumbrado a gas y
         luego eléctrico, etc. En 1874 se abrió el tramo de ferrocarril entre Pola de Lena y Gijón, parte de la línea a
-        León finalizada en 1884.48​ En 1890 se inauguró el primer tranvía, que conectaba la calle Corrida con Somió.49​
+        León finalizada en 1884. En 1890 se inauguró el primer tranvía, que conectaba la calle Corrida con Somió.
         Además, el crecimiento poblacional y económico provocó que el puerto se quedase pequeño. Las sucesivas
         ampliaciones con varios diques y dársenas no impidieron que se viese desbordado por la intensidad del
-        tráfico.50​ Como consecuencia, a las ya mencionadas infraestructuras se sumó la construcción de El Musel, que
-        sería el primer puerto carbonero de la península. Las obras se iniciaron en 1893 y finalizaron en 1907.51​
+        tráfico. Como consecuencia, a las ya mencionadas infraestructuras se sumó la construcción de El Musel, que
+        sería el primer puerto carbonero de la península. Las obras se iniciaron en 1893 y finalizaron en 1907.
 
-        De entre todas ellas destaca la de la calle Capua, actualmente convertida en museo.52​ Con el cambio de siglo
+        De entre todas ellas destaca la de la calle Capua, actualmente convertida en museo. Con el cambio de siglo
         también aparecieron las primeras parcelaciones por iniciativa particular. Consistían en un trazado de calles
         sobre fincas rústicas comunicadas con el casco urbano mediante una vía de acceso. Estas formaban una corona
         alrededor de la ciudad histórica, el ensanche y las zonas industriales de El Natahoyo y La Calzada. El suelo del
@@ -346,8 +744,8 @@
         trabajadores donde era necesaria fuerza de trabajo y difundir una ideología que celebraba las virtudes de la
         propiedad privada y la paz social. Sin embargo, esto fue dando lugar a numerosos grupos de viviendas construidos
         fuera del perímetro urbano o en suelo previsto como industrial, alterando gravemente la planificación
-        urbanística de la ciudad y marcando su desarrollo en las décadas siguientes.61​ En 1958 surge el polígono de Las
-        Mil Quinientas, germen del barrio de Pumarín.62​ Los barrios de El Llano y La Calzada fueron los de mayor
+        urbanística de la ciudad y marcando su desarrollo en las décadas siguientes. En 1958 surge el polígono de Las
+        Mil Quinientas, germen del barrio de Pumarín. Los barrios de El Llano y La Calzada fueron los de mayor
         crecimiento, siendo muy importante la llegada de inmigrantes desde Extremadura, Andalucía y Castilla entre otras
         regiones. Como resultado, en la década de 1950 y sobre todo en la de 1960 la ciudad experimentó su mayor
         desarrollo, superando por primera vez en población a Oviedo.
@@ -361,30 +759,30 @@
         Las últimas décadas del siglo xx trajeron consigo una crisis industrial que afectó sobre todo a la siderurgia y
         al sector naval al igual que al resto de la industria asturiana, especialmente la minera. A partir de la crisis
         de 1973, y en especial con los objetivos del Gobierno de España para entrar en la CEE entre 1982 y 1986, la
-        reconversión industrial ocurrió en toda la región.64​ En Gijón únicamente en 1982 se cerraron 71 empresas.65​
+        reconversión industrial ocurrió en toda la región. En Gijón únicamente en 1982 se cerraron 71 empresas.
         ENSIDESA, empresa que había absorbido a UNINSA, efectuó recortes de plantilla. Más adelante, junto a Altos
         Hornos de Vizcaya, se convirtió en Aceralia y a finales del siglo xx se integró en el grupo europeo Arcelor
         junto a la luxemburguesa Arbed y la francesa Usinor, absorbidas en la actualidad por Mittal Steel. La industria
-        naval se unificó en Naval Gijón en 1985 y la industria textil prácticamente desapareció en 1990.66​ En 1987 se
-        alcanzó el récord histórico de desempleo, que afectaba a un 26 % de la ciudad.67​
+        naval se unificó en Naval Gijón en 1985 y la industria textil prácticamente desapareció en 1990. En 1987 se
+        alcanzó el récord histórico de desempleo, que afectaba a un 26 % de la ciudad.
 
-        En 1986 se activó un Plan General de Ordenación Urbana que saneó varias hectáreas del barrio de El Llano.68​ Fue
+        En 1986 se activó un Plan General de Ordenación Urbana que saneó varias hectáreas del barrio de El Llano. Fue
         el primero de varios planes urbanísticos que dignificaron zonas marginales como La Calzada y Tremañes o
         reformularon barrios industriales como El Natahoyo. Con la ayuda de estos cambios y de la recuperación de la
         economía gijonesa a la par que la española a mediados de los 1990, Gijón se reconvirtió en una ciudad orientada
-        al sector servicios.69​ En el año 1990 se iniciaron las transformaciones que acompañaron a esta nueva etapa con
+        al sector servicios. En el año 1990 se iniciaron las transformaciones que acompañaron a esta nueva etapa con
         la conversión en parque público de las instalaciones militares del Cerro de Santa Catalina, en Cimadevilla. Se
-        inauguró allí la escultura Elogio del Horizonte, de Chillida.70​ En esta década se emprendió además un ambicioso
-        proyecto de edificaciones públicas a partir del derribo de buena parte del Gijón industrial.71​ La desaparición
+        inauguró allí la escultura Elogio del Horizonte, de Chillida. En esta década se emprendió además un ambicioso
+        proyecto de edificaciones públicas a partir del derribo de buena parte del Gijón industrial. La desaparición
         de industrias portuarias dejó espacio para nuevas playas (Poniente, El Arbeyal) así como al Puerto Deportivo. El
         cierre de la Fábrica de Moreda originó un barrio entero, el de Moreda, dignificado por el desvío de las vías de
         ferrocarril desde la estación del Norte hasta la estación de Gijón-Jovellanos (1990).
 
-        La desindustrialización continuó en los 2000 afectando a las industrias medianas de la ciudad,72​ como la mina
-        de La Camocha, cerrada en 2008.73​ En esta época se crearon asimismo nuevos barrios como Montevil, Viesques y
-        Nuevo Roces.74​ En la zona este de la ciudad fueron apareciendo los equipamientos que ahora conforman la Milla
+        La desindustrialización continuó en los 2000 afectando a las industrias medianas de la ciudad, como la mina
+        de La Camocha, cerrada en 2008. En esta época se crearon asimismo nuevos barrios como Montevil, Viesques y
+        Nuevo Roces. En la zona este de la ciudad fueron apareciendo los equipamientos que ahora conforman la Milla
         del Conocimiento Margarita Salas. Estos son el campus universitario, el Parque Científico Tecnológico y la
-        remodelación y acondicionamiento de la Universidad Laboral bajo la marca Laboral, ciudad de la cultura.75​76​
+        remodelación y acondicionamiento de la Universidad Laboral bajo la marca Laboral, ciudad de la cultura.
     </p>
 </body>
 

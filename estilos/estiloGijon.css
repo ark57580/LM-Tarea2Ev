@@ -1,5 +1,9 @@
+html{
+    scroll-behavior: smooth; /*Idea de miguel*/
+}
 body{
     background-color: #ff1a0d;
+    
 }
 
 #encabezado {
@@ -9,7 +13,6 @@ body{
     margin-top: 20px;
 }
 nav{
-    background-color: white;
     padding: 2%;
     margin-left: 10px;
     width: 300px;
@@ -82,5 +85,8 @@ p{
     width: 200px;
     position: relative;
     left: 700px;
+}
+th,td{
+    border: solid 2px;
 }
 
