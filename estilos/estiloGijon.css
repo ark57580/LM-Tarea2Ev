@@ -3,7 +3,7 @@ html{
 }
 body{
     background-color: #ff1a0d;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #encabezado {
@@ -29,6 +29,16 @@ nav{
 .indice2{
     list-style-type: none;
     font-size: 20px;
+}
+#enlaces{
+    position: absolute;
+    right: 100px;
+    top: 300px;
+    text-align: center;
+}
+#enlaces li{
+    list-style: none;
+    
 }
 #menu{
     display: flex;
@@ -86,7 +96,51 @@ p{
     position: relative;
     left: 700px;
 }
+#campaTorres{
+    position: relative;
+    left: 350px;
+}
+#instituto{
+    position: relative;
+    top: 100px;
+    margin-left: 20px;
+}
 th,td{
     border: solid 2px;
 }
-
+#articuloEst{
+    padding: 2%;
+    width: 500px;
+    border: solid 2px;
+    position: relative;
+    left: 550px;
+}
+#fotos li{
+    display: inline-block;
+    margin-right: 40px;
+}
+#fotos{
+    padding-left: 80px;
+}
+footer{
+    padding: 2%;
+    background-color: white;
+    display: flex;
+}
+#autor{
+    position: relative;
+    left: 400px;
+    top: 80px;
+}
+#tabla{
+    text-align: center;
+    border: solid 2px;
+    border-collapse: collapse;
+    margin-left: 400px;
+}
+#tabla td,th{
+    padding: 10px;
+}
+#tabla tr:hover {
+    background-color:#ff1a0d
+}

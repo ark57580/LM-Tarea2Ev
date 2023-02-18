@@ -1,0 +1,53 @@
+body{
+    background-color: #ff1a0d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background: linear-gradient(white,red,white);
+    padding-left: 500px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+header li{
+    display: block;
+}
+#titulo{
+    font-size: 60px;
+    margin-left: 40px;
+}
+#escudoSporting{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    width: 100px;
+}
+section{
+    background-color: white;
+    padding: 4%;
+}
+#enlaces{
+    position: absolute;
+    right: 100px;
+    top: 600px;
+    text-align: center;
+}
+#intro{
+    padding: 2%;
+    background-color: white;
+    text-align: center;
+}
+h3{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+aside li{
+    list-style: none;
+    text-align: center;
+}
+footer{
+    color: white;
+    text-align: center;
+}
